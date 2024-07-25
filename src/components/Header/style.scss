@@ -1,0 +1,19 @@
+/***** HEADER *****/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem 2rem 4rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+nav a {
+  color: black;
+}
