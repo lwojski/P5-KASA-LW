@@ -3,7 +3,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 4rem 2rem 4rem;
+  padding: 0rem 4rem 2rem 4rem;
 }
 
 nav {
@@ -11,9 +11,14 @@ nav {
   align-items: center;
   gap: 60px;
   font-weight: 500;
-  font-size: 20px;
-}
+  font-size: 22px;
 
-nav a {
-  color: black;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }

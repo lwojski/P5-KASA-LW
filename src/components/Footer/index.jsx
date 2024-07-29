@@ -1,7 +1,11 @@
+import logo from "../../assets/logo_blanc.svg"
+import "./style.scss"
+
 function Footer() {
   return (
     <footer>
-      <p>Kasa - 2024</p>
+      <img src={logo} alt="Kasa logo blanc" className="footerLogo" />
+      <p>© 2020 Kasa. All rights reserved</p>
     </footer>
   )
 }
