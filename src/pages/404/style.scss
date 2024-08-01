@@ -1,0 +1,36 @@
+/***** PAGE 404 *****/
+
+.page404 {
+  display: flex;
+  text-align: center;
+
+  .page404Content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .page404Title {
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 410px;
+    margin: 2rem 0rem;
+    color: #ff6060;
+  }
+
+  .page404Message {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    margin: 3rem 0rem 8rem 0rem;
+    color: #ff6060;
+  }
+
+  .page404Link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 7rem;
+    color: #000000;
+  }
+}

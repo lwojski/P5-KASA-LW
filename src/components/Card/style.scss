@@ -1,0 +1,26 @@
+/***** CARD *****/
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 340px;
+  border-radius: 10px;
+  background-color: #ff6060;
+
+  .cardImage {
+    width: 100%;
+    height: 227px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .cardTitle {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 1rem;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+  }
+}
