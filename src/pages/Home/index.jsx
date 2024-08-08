@@ -8,6 +8,7 @@ function Home() {
   return (
     <section className="home">
       <div className="homeHeadline">
+        <div className="homeOverlay"></div>
         <h1 className="homeHeadlineText">Chez vous, partout et ailleurs</h1>
         <img
           src={logo}

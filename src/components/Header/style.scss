@@ -3,7 +3,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 0rem 4rem 2rem 4rem;
+  padding: 2rem 5rem 2.5rem 5rem;
 }
 
 nav {
@@ -13,12 +13,15 @@ nav {
   font-weight: 500;
   font-size: 22px;
 
-  a {
-    color: black;
+  .nav-link {
+    color: #000000;
     text-decoration: none;
+    &.active-link {
+      text-decoration: underline;
+    }
   }
 
-  a:hover {
-    text-decoration: underline;
+  .nav-link:hover {
+    color: #ff6060;
   }
 }
