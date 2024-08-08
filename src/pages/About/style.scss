@@ -5,8 +5,8 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  padding: 0rem 4rem 2rem 4rem;
-  gap: 2rem;
+  padding: 0rem 5rem 1.5rem 5rem;
+  gap: 3.5rem;
 }
 
 /*** ABOUT HEADLINE ***/
@@ -16,8 +16,33 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  position: relative;
+  max-height: 223px;
+  border-radius: 25px;
+  overflow: hidden;
+
+  .aboutOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: 1;
+  }
 
   .aboutHeadlineBackground {
     width: 100%;
+    z-index: 0;
   }
+}
+
+/*** ABOUT MENU ***/
+
+.aboutMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1025px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }

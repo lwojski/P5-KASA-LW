@@ -1,0 +1,49 @@
+/***** COLLAPSE *****/
+
+.collapse {
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  overflow: hidden;
+
+  .collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem 0.5rem 0.75rem;
+    background-color: #ff6060;
+
+    h3 {
+      margin: 0;
+      color: #ffffff;
+      font-size: 22px;
+      line-height: 34px;
+    }
+
+    .chevron {
+      width: 24px;
+      height: 24px;
+      transform: rotate(0deg);
+      transition: transform 0.3s ease;
+
+      &.down {
+        transform: rotate(-180deg);
+      }
+    }
+  }
+
+  .collapse-content {
+    max-height: 0;
+    background-color: rgba(246, 246, 246, 0.45);
+    transition: max-height 0.3s ease;
+    padding: 0 1rem;
+
+    p {
+      margin: 0;
+      padding: 1rem 0;
+    }
+  }
+
+  &.open .collapse-content {
+    max-height: 200px;
+  }
+}
