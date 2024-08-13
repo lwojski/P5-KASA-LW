@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom"
 import "./style.scss"
 
-function Card({ link, title, cover }) {
+function Card({ id, title, cover }) {
+  const link = `/logements/${id}`
+
   return (
     <div className="card">
       <Link to={link}>

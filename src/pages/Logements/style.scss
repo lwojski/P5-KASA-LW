@@ -1,0 +1,45 @@
+/***** LOGEMENTS *****/
+
+.logement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0rem 5rem 1.5rem 5rem;
+
+  .logementDetails {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .logementTitle {
+      color: #ff6060;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 51px;
+      margin: 2rem 0rem 0rem 0rem;
+    }
+
+    .logementLocation {
+      color: #000000;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 25px;
+      margin: 0rem 0rem 1rem 0rem;
+    }
+
+    .logementTags {
+      display: flex;
+      gap: 10px;
+
+      .tag {
+        padding: 0.3rem 2rem;
+        background-color: #ff6060;
+        border-radius: 10px;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+      }
+    }
+  }
+}
