@@ -1,5 +1,5 @@
 import React from "react"
-import { useParams } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 import logements from "../../data/logements.json"
 import Collapse from "../../components/Collapse"
 import Slideshow from "../../components/Slideshow"
@@ -9,10 +9,20 @@ import "./style.scss"
 
 function Logements() {
   const { id } = useParams()
-  const logement = logements.find((logement) => logement.id === id)
+  const navigate = useNavigate()
+  const [logement, setLogement] = React.useState(null)
 
-  if (!logement) {
-    return <div>Logement non trouvé</div>
+  React.useEffect(() => {
+    const foundLogement = logements.find((logement) => logement.id === id)
+    if (!foundLogement) {
+      navigate("/404")
+    } else {
+      setLogement(foundLogement)
+    }
+  }, [id, navigate])
+
+  if (logement === null) {
+    return null
   }
 
   return (
