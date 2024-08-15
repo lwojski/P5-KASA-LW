@@ -25,3 +25,11 @@ nav {
     color: #ff6060;
   }
 }
+
+/*** MEDIA QUERIES ***/
+
+@media (max-width: 768px) {
+  header {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+  }
+}

@@ -6,7 +6,7 @@ function Card({ id, title, cover }) {
 
   return (
     <div className="card">
-      <Link to={link}>
+      <Link to={link} className="cardLink">
         <img src={cover} alt={title} className="cardImage" />
         <h2 className="cardTitle">{title}</h2>
       </Link>

@@ -60,9 +60,37 @@
   padding: 3rem 0rem 3rem 0rem;
 
   .galleryRow {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 3rem;
+    gap: 3rem;
+  }
+}
+
+/*** MEDIA QUERIES ***/
+
+@media (max-width: 1024px) {
+  .gallery {
+    .galleryRow {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 3rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 0rem 1.5rem 2rem 1.5rem;
+  }
+
+  .gallery {
+    background-color: white;
+    padding: 0;
+
+    .galleryRow {
+      grid-template-columns: 1fr;
+      padding: 0;
+      gap: 2rem;
+    }
   }
 }
