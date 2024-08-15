@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import chevron from "../../assets/chevron.svg"
 import "./style.scss"
 
-function Collapse({ title, content }) {
+function Collapse({ title, children }) {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleCollapse = () => {
@@ -19,9 +19,7 @@ function Collapse({ title, content }) {
           className={`chevron ${isOpen ? "down" : "up"}`}
         />
       </div>
-      <div className="collapse-content">
-        <p>{content}</p>
-      </div>
+      <div className="collapse-content">{isOpen && children}</div>
     </div>
   )
 }

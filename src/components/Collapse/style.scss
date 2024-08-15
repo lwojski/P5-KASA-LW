@@ -4,6 +4,7 @@
   margin-bottom: 2rem;
   border-radius: 5px;
   overflow: hidden;
+  width: 100%;
 
   .collapse-header {
     display: flex;
@@ -11,6 +12,7 @@
     align-items: center;
     padding: 0.5rem 1rem 0.5rem 0.75rem;
     background-color: #ff6060;
+    cursor: pointer;
 
     h3 {
       margin: 0;
@@ -36,10 +38,16 @@
     background-color: rgba(246, 246, 246, 0.45);
     transition: max-height 0.3s ease;
     padding: 0 1rem;
+    overflow: hidden;
 
-    p {
+    p,
+    ul {
       margin: 0;
       padding: 1rem 0;
+    }
+
+    ul {
+      list-style: none;
     }
   }
 

@@ -13,7 +13,9 @@ function About() {
       </div>
       <div className="aboutMenu">
         {about.map((item, index) => (
-          <Collapse key={index} title={item.title} content={item.content} />
+          <Collapse key={index} title={item.title}>
+            <p>{item.content}</p>
+          </Collapse>
         ))}
       </div>
     </section>
