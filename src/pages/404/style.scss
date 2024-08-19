@@ -34,3 +34,28 @@
     color: #000000;
   }
 }
+
+/*** MEDIA QUERIES ***/
+
+/* (768PX AND LESS) */
+@media (max-width: 768px) {
+  .page404 {
+    .page404Title {
+      font-size: 96px;
+      line-height: 137px;
+      margin: 4rem 0rem;
+    }
+
+    .page404Message {
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      line-height: 25px;
+    }
+
+    .page404Link {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
