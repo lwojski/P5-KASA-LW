@@ -23,7 +23,7 @@ function Header() {
             isActive ? "nav-link active-link" : "nav-link"
           }
         >
-          A propos
+          A Propos
         </NavLink>
       </nav>
     </header>

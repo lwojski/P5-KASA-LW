@@ -9,7 +9,10 @@ function Home() {
     <section className="home">
       <div className="homeHeadline">
         <div className="homeOverlay"></div>
-        <h1 className="homeHeadlineText">Chez vous, partout et ailleurs</h1>
+        <h1 className="homeHeadlineText">
+          <span className="line1">Chez vous, </span>
+          <span className="line2">partout et ailleurs</span>
+        </h1>
         <img
           src={logo}
           alt="Côte rocheuse"

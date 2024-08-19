@@ -6,7 +6,6 @@
   aspect-ratio: 1 / 1;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #ff6060;
 
   .cardLink {
     display: flex;
@@ -28,5 +27,14 @@
     font-size: 18px;
     line-height: 25px;
     color: white;
+  }
+}
+
+/*** MEDIA QUERIES ***/
+
+/* (768PX AND LESS) */
+@media (max-width: 768px) {
+  .card {
+    aspect-ratio: 1.313;
   }
 }

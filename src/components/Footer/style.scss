@@ -18,3 +18,21 @@ footer {
     line-height: 34px;
   }
 }
+
+/*** MEDIA QUERIES ***/
+
+@media (max-width: 768px) {
+  footer {
+    .footerLogo {
+      padding: 3.85rem 0rem 0rem 0rem;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 17px;
+      margin-bottom: 3.85rem;
+      max-width: 110px;
+      text-align: center;
+    }
+  }
+}
