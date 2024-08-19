@@ -44,3 +44,30 @@
     line-height: 25px;
   }
 }
+
+/*** MEDIA QUERIES ***/
+
+/* (768PX AND LESS TABLET) */
+@media (max-width: 768px) {
+  .slideshow {
+    height: 255px;
+    border-radius: 10px;
+    .slideshowArrows {
+      img {
+        width: 14px;
+      }
+
+      .leftArrow {
+        left: 10px;
+      }
+
+      .rightArrow {
+        right: 10px;
+      }
+    }
+  }
+
+  .slideshowCounter {
+    display: none;
+  }
+}
