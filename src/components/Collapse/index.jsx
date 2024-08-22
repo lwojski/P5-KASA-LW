@@ -19,7 +19,9 @@ function Collapse({ title, children }) {
           className={`chevron ${isOpen ? "down" : "up"}`}
         />
       </div>
-      <div className="collapse-content">{isOpen && children}</div>
+      <div className={`collapse-content ${isOpen ? "open" : ""}`}>
+        <div className="content-wrapper">{children}</div>
+      </div>
     </div>
   )
 }
