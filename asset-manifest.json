@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.22f18161.css",
-    "main.js": "/static/js/main.2dbd6690.js",
-    "static/media/about_headline_background.svg": "/static/media/about_headline_background.12f5dbe34fe4481f5c033d41f4837876.svg",
-    "static/media/home_title_background.svg": "/static/media/home_title_background.7461b4df9a1b95bd862b9bab48ab134b.svg",
-    "static/media/logo.svg": "/static/media/logo.a5c76d8a1dac09edd59db36304e0bcfa.svg",
-    "static/media/logo_blanc.svg": "/static/media/logo_blanc.49d6c6c773443de2f700868f876ad8db.svg",
-    "static/media/star_active.svg": "/static/media/star_active.f47de1483d883b69c6210d622f75c05c.svg",
-    "static/media/star_inactive.svg": "/static/media/star_inactive.c864407432a61da616f95e669105d42e.svg",
-    "index.html": "/index.html",
-    "static/media/chevron.svg": "/static/media/chevron.4b8a8db56debe28d08d9e59e272bbc3c.svg",
-    "static/media/right_arrow.svg": "/static/media/right_arrow.88153a5d119c2744ffe34dca1ef843df.svg",
-    "static/media/left_arrow.svg": "/static/media/left_arrow.19918a1634b1441a25ae0b50e6b1f85b.svg",
-    "main.22f18161.css.map": "/static/css/main.22f18161.css.map",
-    "main.2dbd6690.js.map": "/static/js/main.2dbd6690.js.map"
+    "main.css": "/P5-KASA-LW/static/css/main.22f18161.css",
+    "main.js": "/P5-KASA-LW/static/js/main.814dad51.js",
+    "static/media/about_headline_background.svg": "/P5-KASA-LW/static/media/about_headline_background.12f5dbe34fe4481f5c033d41f4837876.svg",
+    "static/media/home_title_background.svg": "/P5-KASA-LW/static/media/home_title_background.7461b4df9a1b95bd862b9bab48ab134b.svg",
+    "static/media/logo.svg": "/P5-KASA-LW/static/media/logo.a5c76d8a1dac09edd59db36304e0bcfa.svg",
+    "static/media/logo_blanc.svg": "/P5-KASA-LW/static/media/logo_blanc.49d6c6c773443de2f700868f876ad8db.svg",
+    "static/media/star_active.svg": "/P5-KASA-LW/static/media/star_active.f47de1483d883b69c6210d622f75c05c.svg",
+    "static/media/star_inactive.svg": "/P5-KASA-LW/static/media/star_inactive.c864407432a61da616f95e669105d42e.svg",
+    "index.html": "/P5-KASA-LW/index.html",
+    "static/media/chevron.svg": "/P5-KASA-LW/static/media/chevron.4b8a8db56debe28d08d9e59e272bbc3c.svg",
+    "static/media/right_arrow.svg": "/P5-KASA-LW/static/media/right_arrow.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/left_arrow.svg": "/P5-KASA-LW/static/media/left_arrow.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "main.22f18161.css.map": "/P5-KASA-LW/static/css/main.22f18161.css.map",
+    "main.814dad51.js.map": "/P5-KASA-LW/static/js/main.814dad51.js.map"
   },
   "entrypoints": [
     "static/css/main.22f18161.css",
-    "static/js/main.2dbd6690.js"
+    "static/js/main.814dad51.js"
   ]
 }
