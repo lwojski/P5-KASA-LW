@@ -2,8 +2,19 @@
 
 /***** GENERAL *****/
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat";
   min-width: 360px;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
